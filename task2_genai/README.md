@@ -20,11 +20,16 @@ python task2_genai/generate_dataset.py
 
 ## Fine-tuning (Colab T4)
 
+**Repo path:** `task2_genai/finetune.ipynb`
+
 Open in Colab (GPU required):
 
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/DilanSenanayake/CDAZZDEV-MLE-DilanSenanayake/blob/master/task2_genai/finetune.ipynb)
 
-Or open your saved copy and **git pull** to get fixes.
+- GitHub ? Colab: https://colab.research.google.com/github/DilanSenanayake/CDAZZDEV-MLE-DilanSenanayake/blob/master/task2_genai/finetune.ipynb
+- Drive copy (executed run): https://colab.research.google.com/drive/1FTUT9PINjueY3RslS-p3-IdZK56ZRjqN?usp=sharing
+
+More links: [`docs/COLAB.md`](../docs/COLAB.md)
 
 **Run order:**
 1. Runtime -> **T4 GPU**

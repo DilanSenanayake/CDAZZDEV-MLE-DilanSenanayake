@@ -18,6 +18,16 @@ Use before sending the assessment email.
 - [x] Run `task2_genai/finetune.ipynb` on Colab T4; confirm val loss decreases
 - [x] `merge_and_unload()` and push merged model to Hugging Face
 - [x] Paste HF link into root README: https://huggingface.co/DilanSenanayake/phi3-compliance-qlora-merged
+- [x] Colab links documented in [`COLAB.md`](COLAB.md) and root README
+
+## Colab paths
+
+| Task | Colab URL |
+|------|-----------|
+| Task 1 | https://colab.research.google.com/github/DilanSenanayake/CDAZZDEV-MLE-DilanSenanayake/blob/master/task1_financial/equity_research.ipynb |
+| Task 2 | https://colab.research.google.com/github/DilanSenanayake/CDAZZDEV-MLE-DilanSenanayake/blob/master/task2_genai/finetune.ipynb |
+| Task 2 (Drive) | https://colab.research.google.com/drive/1FTUT9PINjueY3RslS-p3-IdZK56ZRjqN?usp=sharing |
+| Task 3 | https://colab.research.google.com/github/DilanSenanayake/CDAZZDEV-MLE-DilanSenanayake/blob/master/task3_agentic/multi_agent.ipynb |
 
 ## Video & email
 

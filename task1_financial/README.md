@@ -11,7 +11,13 @@ cp .env.example .env   # add GROQ_API_KEY for live LLM mode
 python task1_financial/run_task1.py AAPL
 ```
 
-Or open [`equity_research.ipynb`](equity_research.ipynb) in Jupyter / [Google Colab](https://colab.research.google.com/).
+Or open in Colab:
+
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/DilanSenanayake/CDAZZDEV-MLE-DilanSenanayake/blob/master/task1_financial/equity_research.ipynb)
+
+https://colab.research.google.com/github/DilanSenanayake/CDAZZDEV-MLE-DilanSenanayake/blob/master/task1_financial/equity_research.ipynb
+
+See also [`docs/COLAB.md`](../docs/COLAB.md).
 
 ## Modules
 

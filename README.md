@@ -7,11 +7,13 @@ Public repository containing all three tasks, notebooks with visible outputs, ci
 
 ## Tasks
 
-| Task | Folder | Notebook |
-|------|--------|----------|
-| 1 Financial AI | [`task1_financial/`](task1_financial/) | [`equity_research.ipynb`](task1_financial/equity_research.ipynb) |
-| 2 Generative AI | [`task2_genai/`](task2_genai/) | [`finetune.ipynb`](task2_genai/finetune.ipynb) |
-| 3 Agentic Workflows | [`task3_agentic/`](task3_agentic/) | [`multi_agent.ipynb`](task3_agentic/multi_agent.ipynb) |
+| Task | Folder | Notebook | Colab |
+|------|--------|----------|-------|
+| 1 Financial AI | [`task1_financial/`](task1_financial/) | [`equity_research.ipynb`](task1_financial/equity_research.ipynb) | [Open](https://colab.research.google.com/github/DilanSenanayake/CDAZZDEV-MLE-DilanSenanayake/blob/master/task1_financial/equity_research.ipynb) |
+| 2 Generative AI | [`task2_genai/`](task2_genai/) | [`finetune.ipynb`](task2_genai/finetune.ipynb) | [Open (T4 GPU)](https://colab.research.google.com/github/DilanSenanayake/CDAZZDEV-MLE-DilanSenanayake/blob/master/task2_genai/finetune.ipynb) |
+| 3 Agentic Workflows | [`task3_agentic/`](task3_agentic/) | [`multi_agent.ipynb`](task3_agentic/multi_agent.ipynb) | [Open](https://colab.research.google.com/github/DilanSenanayake/CDAZZDEV-MLE-DilanSenanayake/blob/master/task3_agentic/multi_agent.ipynb) |
+
+Full Colab path list: [`docs/COLAB.md`](docs/COLAB.md)
 
 ## Setup
 
@@ -34,7 +36,10 @@ python task2_genai/eval_offline.py
 streamlit run task3_agentic/dashboard.py
 ```
 
-Task 2 QLoRA training: open `task2_genai/finetune.ipynb` in **Google Colab (T4 GPU)**.
+Task 2 QLoRA training: open in **Google Colab (T4 GPU)**  
+? https://colab.research.google.com/github/DilanSenanayake/CDAZZDEV-MLE-DilanSenanayake/blob/master/task2_genai/finetune.ipynb
+
+See [`docs/COLAB.md`](docs/COLAB.md) for all notebook Colab links.
 
 ## Submission links (fill before email)
 
@@ -42,6 +47,8 @@ Task 2 QLoRA training: open `task2_genai/finetune.ipynb` in **Google Colab (T4 G
 |-------------|------|
 | GitHub (public) | https://github.com/DilanSenanayake/CDAZZDEV-MLE-DilanSenanayake |
 | Hugging Face model (Task 2) | https://huggingface.co/DilanSenanayake/phi3-compliance-qlora-merged |
+| Task 2 Colab (GitHub) | https://colab.research.google.com/github/DilanSenanayake/CDAZZDEV-MLE-DilanSenanayake/blob/master/task2_genai/finetune.ipynb |
+| Task 2 Colab (Drive, executed) | https://colab.research.google.com/drive/1FTUT9PINjueY3RslS-p3-IdZK56ZRjqN?usp=sharing |
 | Google Drive (large weights, optional) | _if needed_ |
 | Video walkthrough (<=5 min, mandatory per email) | _YouTube unlisted or Drive_ |
 
@@ -49,7 +56,7 @@ Task 2 QLoRA training: open `task2_genai/finetune.ipynb` in **Google Colab (T4 G
 
 - [`CITATIONS.md`](CITATIONS.md)
 - [`REFLECTION.md`](REFLECTION.md) (<=600 words)
-- Planning docs: [`docs/ASSESSMENT_PLAN.md`](docs/ASSESSMENT_PLAN.md), [`docs/STEPS.md`](docs/STEPS.md), [`docs/CHANGELOG.md`](docs/CHANGELOG.md)
+- Planning docs: [`docs/ASSESSMENT_PLAN.md`](docs/ASSESSMENT_PLAN.md), [`docs/STEPS.md`](docs/STEPS.md), [`docs/CHANGELOG.md`](docs/CHANGELOG.md), [`docs/COLAB.md`](docs/COLAB.md)
 
 ## Video walkthrough checklist
 

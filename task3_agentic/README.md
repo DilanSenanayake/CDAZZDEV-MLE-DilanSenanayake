@@ -11,6 +11,12 @@ python task3_agentic/run_task3.py AAPL
 
 Notebook: [`multi_agent.ipynb`](multi_agent.ipynb)
 
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/DilanSenanayake/CDAZZDEV-MLE-DilanSenanayake/blob/master/task3_agentic/multi_agent.ipynb)
+
+https://colab.research.google.com/github/DilanSenanayake/CDAZZDEV-MLE-DilanSenanayake/blob/master/task3_agentic/multi_agent.ipynb
+
+See also [`docs/COLAB.md`](../docs/COLAB.md).
+
 ## Architecture
 
 ### Task 3A - Single research agent
