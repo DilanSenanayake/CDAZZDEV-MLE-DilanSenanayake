@@ -20,12 +20,18 @@ python task2_genai/generate_dataset.py
 
 ## Fine-tuning (Colab T4)
 
-Open [`finetune.ipynb`](finetune.ipynb) in Colab with GPU:
+Open in Colab (GPU required):
 
-1. Upload/clone repo folder `task2_genai`
-2. Run install + QLoRA cells
-3. Confirm train/val loss per epoch (val loss should decrease)
-4. `merge_and_unload()` -> push merged model to Hugging Face Hub
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/DilanSenanayake/CDAZZDEV-MLE-DilanSenanayake/blob/master/task2_genai/finetune.ipynb)
+
+Or open your saved copy and **git pull** to get fixes.
+
+**Run order:**
+1. Runtime -> **T4 GPU**
+2. Clone/pull + install cells
+3. **Restart runtime** after install
+4. Run **After restart** cell, then training cell
+5. Confirm val loss decreases; merge + push to Hugging Face Hub
 
 **HF model link (replace after push):** `https://huggingface.co/<YOUR_USER>/phi3-compliance-qlora-merged`
 
