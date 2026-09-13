@@ -1,0 +1,139 @@
+{
+  "train": 96,
+  "val": 12,
+  "test": 12,
+  "total": 120,
+  "diversity": {
+    "n_examples": 120,
+    "prompt_length_words": {
+      "min": 12,
+      "max": 18,
+      "mean": 14.35,
+      "p50": 14
+    },
+    "topic_counts": {
+      "segment_reporting": 6,
+      "market_risk": 6,
+      "goodwill_impairment": 6,
+      "contingent_liabilities": 6,
+      "fair_disclosure_reg_fd": 6,
+      "esg_claims_guardrails": 6,
+      "earnings_guidance_language": 6,
+      "revenue_recognition_risk": 6,
+      "fx_translation_risk": 6,
+      "capital_adequacy": 6,
+      "going_concern": 6,
+      "liquidity_risk": 6,
+      "supply_chain_concentration": 6,
+      "insider_trading_policy": 6,
+      "material_adverse_change": 6,
+      "litigation_contingency": 6,
+      "related_party_transactions": 6,
+      "forward_looking_statements": 6,
+      "credit_risk": 6,
+      "cybersecurity_disclosure": 6
+    },
+    "top_keywords": [
+      [
+        "variant",
+        120
+      ],
+      [
+        "risk",
+        54
+      ],
+      [
+        "disclosure",
+        48
+      ],
+      [
+        "about",
+        48
+      ],
+      [
+        "apac",
+        40
+      ],
+      [
+        "claim",
+        24
+      ],
+      [
+        "what",
+        24
+      ],
+      [
+        "before",
+        24
+      ],
+      [
+        "compliant",
+        24
+      ],
+      [
+        "airline",
+        20
+      ],
+      [
+        "bank",
+        20
+      ],
+      [
+        "biotech",
+        20
+      ],
+      [
+        "retailer",
+        20
+      ],
+      [
+        "semiconductor",
+        20
+      ],
+      [
+        "saas",
+        20
+      ],
+      [
+        "forward",
+        18
+      ],
+      [
+        "looking",
+        18
+      ],
+      [
+        "language",
+        18
+      ],
+      [
+        "statements",
+        18
+      ],
+      [
+        "explain",
+        12
+      ],
+      [
+        "interacts",
+        12
+      ],
+      [
+        "with",
+        12
+      ],
+      [
+        "statement",
+        12
+      ],
+      [
+        "safe",
+        12
+      ],
+      [
+        "harbors",
+        12
+      ]
+    ]
+  }
+}

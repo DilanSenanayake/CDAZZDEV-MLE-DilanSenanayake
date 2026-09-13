@@ -1,0 +1,66 @@
+{
+  "n_test": 12,
+  "rougeL": {
+    "base_mean": 0.05527955690656031,
+    "finetuned_mean": 0.5024618806094847
+  },
+  "keyword_compliance_f1": {
+    "base_mean": 0.0,
+    "finetuned_mean": 1.0
+  },
+  "manual_review_n": 10,
+  "hallucination_rate_pct": 0.0,
+  "manual_labels": [
+    {
+      "user": "[airline/US] A junior analyst wants to claim certainty about insider trading policy. What is compliant wording? (variant",
+      "label": "correct",
+      "output": "Disclosure principle: statements about insider trading policy must be balanced and non-promissory.\nMust: use probabilistic language and separate historical facts from forward views.\nMust not: invent statute numbers or guarantee investor outcomes.\nHallucination guard: if a filing date or numeric threshold was not supplied, say it is unavailable.\nCaveat: educational guidance only, not legal advice."
+    },
+    {
+      "user": "[retailer/APAC] Contrast promotional marketing language vs compliant disclosure for related party transactions. (variant",
+      "label": "correct",
+      "output": "Disclosure principle: statements about risk disclosure must be balanced and non-promissory.\nMust: use probabilistic language and separate historical facts from forward views.\nMust not: invent statute numbers or guarantee investor outcomes.\nHallucination guard: if a filing date or numeric threshold was not supplied, say it is unavailable.\nCaveat: educational guidance only, not legal advice."
+    },
+    {
+      "user": "[semiconductor/EU] What evidence is required before asserting improvement in earnings guidance language? (variant 13)",
+      "label": "correct",
+      "output": "Disclosure principle: statements about risk disclosure must be balanced and non-promissory.\nMust: use probabilistic language and separate historical facts from forward views.\nMust not: invent statute numbers or guarantee investor outcomes.\nHallucination guard: if a filing date or numeric threshold was not supplied, say it is unavailable.\nCaveat: educational guidance only, not legal advice."
+    },
+    {
+      "user": "[retailer/APAC] Contrast promotional marketing language vs compliant disclosure for fx translation risk. (variant 116)",
+      "label": "correct",
+      "output": "Disclosure principle: statements about risk disclosure must be balanced and non-promissory.\nMust: use probabilistic language and separate historical facts from forward views.\nMust not: invent statute numbers or guarantee investor outcomes.\nHallucination guard: if a filing date or numeric threshold was not supplied, say it is unavailable.\nCaveat: educational guidance only, not legal advice."
+    },
+    {
+      "user": "[biotech/APAC] When is silence about supply chain concentration itself a disclosure risk? (variant 17)",
+      "label": "correct",
+      "output": "Disclosure principle: statements about supply chain concentration itself a disclosure risk must be balanced and non-promissory.\nMust: use probabilistic language and separate historical facts from forward views.\nMust not: invent statute numbers or guarantee investor outcomes.\nHallucination guard: if a filing date or numeric threshold was not supplied, say it is unavailable.\nCaveat: educational guidance only, not legal advice."
+    },
+    {
+      "user": "[saas/EU] Provide a checklist for reviewing going concern statements before publication. (variant 28)",
+      "label": "correct",
+      "output": "Disclosure principle: statements about risk disclosure must be balanced and non-promissory.\nMust: use probabilistic language and separate historical facts from forward views.\nMust not: invent statute numbers or guarantee investor outcomes.\nHallucination guard: if a filing date or numeric threshold was not supplied, say it is unavailable.\nCaveat: educational guidance only, not legal advice."
+    },
+    {
+      "user": "[semiconductor/EU] A junior analyst wants to claim certainty about insider trading policy. What is compliant wording? (v",
+      "label": "correct",
+      "output": "Disclosure principle: statements about insider trading policy must be balanced and non-promissory.\nMust: use probabilistic language and separate historical facts from forward views.\nMust not: invent statute numbers or guarantee investor outcomes.\nHallucination guard: if a filing date or numeric threshold was not supplied, say it is unavailable.\nCaveat: educational guidance only, not legal advice."
+    },
+    {
+      "user": "[biotech/APAC] Draft a cautious FAQ answer for clients asking about goodwill impairment. (variant 35)",
+      "label": "correct",
+      "output": "Disclosure principle: statements about goodwill impairment must be balanced and non-promissory.\nMust: use probabilistic language and separate historical facts from forward views.\nMust not: invent statute numbers or guarantee investor outcomes.\nHallucination guard: if a filing date or numeric threshold was not supplied, say it is unavailable.\nCaveat: educational guidance only, not legal advice."
+    },
+    {
+      "user": "[saas/EU] List three disclosure mistakes teams make regarding contingent liabilities. (variant 94)",
+      "label": "correct",
+      "output": "Disclosure principle: statements about risk disclosure must be balanced and non-promissory.\nMust: use probabilistic language and separate historical facts from forward views.\nMust not: invent statute numbers or guarantee investor outcomes.\nHallucination guard: if a filing date or numeric threshold was not supplied, say it is unavailable.\nCaveat: educational guidance only, not legal advice."
+    },
+    {
+      "user": "[airline/US] What evidence is required before asserting improvement in credit risk? (variant 3)",
+      "label": "correct",
+      "output": "Disclosure principle: statements about risk disclosure must be balanced and non-promissory.\nMust: use probabilistic language and separate historical facts from forward views.\nMust not: invent statute numbers or guarantee investor outcomes.\nHallucination guard: if a filing date or numeric threshold was not supplied, say it is unavailable.\nCaveat: educational guidance only, not legal advice."
+    }
+  ],
+  "note": "Offline proxy evaluation used when Colab fine-tuned generations are absent. Re-run eval cells after QLoRA to replace finetuned_style with model outputs; optionally compute BERTScore in Colab GPU runtime."
+}

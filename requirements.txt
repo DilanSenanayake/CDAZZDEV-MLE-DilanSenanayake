@@ -1,0 +1,46 @@
+# Shared dependencies for CDAZZDEV Senior MLE Assessment
+# Install: pip install -r requirements.txt
+
+# Data & numerics
+yfinance>=0.2.40
+pandas>=2.0.0
+numpy>=1.24.0
+matplotlib>=3.7.0
+requests>=2.31.0
+feedparser>=6.0.0
+
+# LLM / validation
+groq>=0.9.0
+pydantic>=2.0.0
+python-dotenv>=1.0.0
+tenacity>=8.2.0
+
+# Agents (Task 3)
+langchain>=0.2.0
+langchain-core>=0.2.0
+langchain-community>=0.2.0
+langgraph>=0.1.0
+duckduckgo-search>=6.0.0
+
+# Fine-tuning / eval (Task 2 - primarily Colab)
+transformers>=4.40.0
+datasets>=2.19.0
+accelerate>=0.30.0
+peft>=0.11.0
+trl>=0.9.0
+bitsandbytes>=0.43.0
+evaluate>=0.4.0
+rouge-score>=0.1.2
+bert-score>=0.3.13
+sentencepiece>=0.2.0
+protobuf>=4.25.0
+huggingface_hub>=0.23.0
+
+# Tracking / optional bonus
+wandb>=0.17.0
+chromadb>=0.5.0
+streamlit>=1.32.0
+
+# Report rendering
+markdown>=3.5.0
+jinja2>=3.1.0

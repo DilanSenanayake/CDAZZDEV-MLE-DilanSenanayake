@@ -1,0 +1,52 @@
+# Secrets
+.env
+.env.local
+*.pem
+*.key
+
+# Assessment PDF is confidential — do not publish
+CDAZZDEV_Senior_MLE_Assessment_2026.pdf
+*.pdf
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.venv/
+venv/
+.env/
+dist/
+build/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Models / large artifacts
+*.bin
+*.safetensors
+*.gguf
+*.pt
+*.pth
+merged_model/
+adapters/
+lora_adapters/
+checkpoints/
+wandb/
+runs/
+
+# OS / IDE
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+
+# Caches
+.cache/
+chromadb/
+*.chroma/
+
+# Task caches (keep structure, ignore runtime cache payloads if huge)
+task3_agentic/memory/cache/*.json
+!task3_agentic/memory/cache/.gitkeep

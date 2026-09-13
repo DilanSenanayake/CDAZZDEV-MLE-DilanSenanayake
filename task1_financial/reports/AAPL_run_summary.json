@@ -1,0 +1,122 @@
+{
+  "ticker": "AAPL",
+  "summary": {
+    "ticker": "AAPL",
+    "as_of": "2026-09-11 00:00:00-04:00",
+    "current_price": 332.2699890136719,
+    "fifty_two_week_high": 344.57000732421875,
+    "fifty_two_week_low": 226.64999389648438,
+    "pe_ratio": 38.148106,
+    "ytd_return": 0.2260432347167758,
+    "momentum_signal": "bullish",
+    "indicators": {
+      "sma_50": 317.97419982910156,
+      "sma_200": 284.9533494567871,
+      "rsi_14": 62.789009402560566,
+      "macd": 3.226967132801235,
+      "macd_signal": 1.9022506249270499,
+      "macd_hist": 1.3247165078741852,
+      "bb_mid": 316.62599792480466,
+      "bb_upper": 331.4729512408738,
+      "bb_lower": 301.77904460873555
+    }
+  },
+  "headline_count": 10,
+  "headlines": [
+    "Apple's AI vision is tailored for the moment of AI panic",
+    "Louis Navellier is buying 3 headline-making stocks, including Google",
+    "MP Materials Nears NdPr Target, Eyes GM Magnet Deliveries by Year-End",
+    "Broadcom vs. Micron Technology: Which Technology Stock Is a Better Buy in 2026?",
+    "Jim Cramer Flips the Script: Why Older Investors Should Ditch Growth Stocks for 30-Year Treasuries",
+    "Dow Jones Futures: Fed Rate Hike Seen As Oil, Yields Pressure Stocks; Apple, Moderna Are New Buys",
+    "Apple, Taiwan Semi Lead Five Stocks Near Buy Points",
+    "Sirius XM CEO Highlights Cash Flow Growth, New Sports Plans and Ad Expansion at Conference",
+    "Foxconn Just Delivered a Major Bullish Signal for Nvidia Stock",
+    "$2.3 Billion in Daily Profits: Why Betting Against the Magnificent 7 Keeps Failing"
+  ],
+  "llm": {
+    "mode": "offline_fallback",
+    "sentiment": {
+      "items": [
+        {
+          "headline": "Apple's AI vision is tailored for the moment of AI panic",
+          "sentiment": "neutral",
+          "confidence": 0.4,
+          "brief_reason": "Offline lexicon found no strong polarity cues."
+        },
+        {
+          "headline": "Louis Navellier is buying 3 headline-making stocks, including Google",
+          "sentiment": "neutral",
+          "confidence": 0.4,
+          "brief_reason": "Offline lexicon found no strong polarity cues."
+        },
+        {
+          "headline": "MP Materials Nears NdPr Target, Eyes GM Magnet Deliveries by Year-End",
+          "sentiment": "neutral",
+          "confidence": 0.4,
+          "brief_reason": "Offline lexicon found no strong polarity cues."
+        },
+        {
+          "headline": "Broadcom vs. Micron Technology: Which Technology Stock Is a Better Buy in 2026?",
+          "sentiment": "neutral",
+          "confidence": 0.4,
+          "brief_reason": "Offline lexicon found no strong polarity cues."
+        },
+        {
+          "headline": "Jim Cramer Flips the Script: Why Older Investors Should Ditch Growth Stocks for 30-Year Treasuries",
+          "sentiment": "positive",
+          "confidence": 0.55,
+          "brief_reason": "Offline lexicon matched bullish cue words."
+        },
+        {
+          "headline": "Dow Jones Futures: Fed Rate Hike Seen As Oil, Yields Pressure Stocks; Apple, Moderna Are New Buys",
+          "sentiment": "neutral",
+          "confidence": 0.4,
+          "brief_reason": "Offline lexicon found no strong polarity cues."
+        },
+        {
+          "headline": "Apple, Taiwan Semi Lead Five Stocks Near Buy Points",
+          "sentiment": "neutral",
+          "confidence": 0.4,
+          "brief_reason": "Offline lexicon found no strong polarity cues."
+        },
+        {
+          "headline": "Sirius XM CEO Highlights Cash Flow Growth, New Sports Plans and Ad Expansion at Conference",
+          "sentiment": "positive",
+          "confidence": 0.55,
+          "brief_reason": "Offline lexicon matched bullish cue words."
+        },
+        {
+          "headline": "Foxconn Just Delivered a Major Bullish Signal for Nvidia Stock",
+          "sentiment": "neutral",
+          "confidence": 0.4,
+          "brief_reason": "Offline lexicon found no strong polarity cues."
+        },
+        {
+          "headline": "$2.3 Billion in Daily Profits: Why Betting Against the Magnificent 7 Keeps Failing",
+          "sentiment": "positive",
+          "confidence": 0.55,
+          "brief_reason": "Offline lexicon matched bullish cue words."
+        }
+      ],
+      "overall_sentiment_score": 0.3707865168539326,
+      "overall_label": "positive"
+    },
+    "signal": {
+      "signal": "Buy",
+      "justification": "Price versus SMA50/SMA200 alignment currently reads bullish, while RSI is 62.789009402560566. Combining trend structure with MACD histogram direction and Bollinger location suggests balancing momentum against mean-reversion risk. Aggregated news sentiment score is 0.37, which moderates conviction. Overall the blended technical and sentiment view supports a Buy stance rather than chasing a single indicator.",
+      "key_factors": [
+        "sma_stack",
+        "rsi_regime",
+        "macd_hist",
+        "news_sentiment"
+      ]
+    }
+  },
+  "report_paths": {
+    "markdown": "D:\\Github\\CDAZZDEV assignment\\task1_financial\\reports\\AAPL_research_brief.md",
+    "html": "D:\\Github\\CDAZZDEV assignment\\task1_financial\\reports\\AAPL_research_brief.html",
+    "chart": "D:\\Github\\CDAZZDEV assignment\\task1_financial\\reports\\AAPL_price_chart.png"
+  },
+  "ohlcv_rows": 501
+}
