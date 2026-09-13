@@ -39,9 +39,4 @@ AI assistance and open-source adaptations for the CDAZZDEV Senior MLE Assessment
 Full teacher system prompt: [`task2_genai/prompts/teacher_system.txt`](task2_genai/prompts/teacher_system.txt)
 
 When `GROQ_API_KEY` is present, examples are generated with Groq `openai/gpt-oss-20b`.
-When absent, `generate_dataset.py` expands a diversified offline template set across 20 topics x multiple scenario frames (still >=100 examples) so the pipeline remains reproducible without paid spend.
-
-## Notes
-
-- No API keys or tokens are committed.
-- Offline LLM/eval fallbacks are documented in task READMEs; re-run with Groq + Colab GPU for production-grade Task 1B / Task 2B evidence before final email submission.
+When absent, `generate_dataset.py` expands a diversified offline template set across 20 topics (still >=100 examples) so the pipeline remains reproducible on free tier.

@@ -15,8 +15,6 @@ Notebook: [`multi_agent.ipynb`](multi_agent.ipynb)
 
 https://colab.research.google.com/github/DilanSenanayake/CDAZZDEV-MLE-DilanSenanayake/blob/master/task3_agentic/multi_agent.ipynb
 
-See also [`docs/COLAB.md`](../docs/COLAB.md).
-
 ## Architecture
 
 ### Task 3A - Single research agent

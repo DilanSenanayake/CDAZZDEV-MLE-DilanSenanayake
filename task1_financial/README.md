@@ -17,8 +17,6 @@ Or open in Colab:
 
 https://colab.research.google.com/github/DilanSenanayake/CDAZZDEV-MLE-DilanSenanayake/blob/master/task1_financial/equity_research.ipynb
 
-See also [`docs/COLAB.md`](../docs/COLAB.md).
-
 ## Modules
 
 | File | Role |
