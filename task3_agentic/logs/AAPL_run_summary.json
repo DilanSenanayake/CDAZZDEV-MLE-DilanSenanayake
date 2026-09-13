@@ -3,7 +3,7 @@
     "from_cache_first": false,
     "report": {
       "ticker": "AAPL",
-      "financial_health_summary": "AAPL latest close=332.2699890136719, SMA50=317.97419982910156, SMA200=284.9533494567871, RSI=62.789009402560566, ann. vol=0.23231266453667265, news sentiment=positive (0.3707865168539326).",
+      "financial_health_summary": "AAPL latest close=332.2699890136719, SMA50=317.97419982910156, SMA200=284.9533494567871, RSI=62.789009402560566, ann. vol=0.23231266453667265, news sentiment=positive (0.23870967741935484).",
       "top_three_risks": [
         {
           "title": "Volatility regime risk",
@@ -17,7 +17,7 @@
         },
         {
           "title": "Narrative / headline risk",
-          "evidence": "Sentiment=positive; sample news=[{'headline': \"Apple's AI vision is tailored for the moment of AI panic\"}, {'headline': 'Louis Navellier is buying 3 headline-making stocks, including Google'}]; web=[{'title': 'No results', 'body': '', 'href': '', 'error': 'empty'}]",
+          "evidence": "Sentiment=positive; sample news=[{'headline': \"Apple's iPhone Duo event should put the bears to rest\"}, {'headline': \"Berkshire Hathaway Has Nearly 14% of Its $359 Billion Portfolio Invested in This Winning Stock That's Doubled in 5 Years\"}]; web=[{'title': 'No results', 'body': '', 'href': '', 'error': 'empty'}]",
           "horizon_days": 90
         }
       ],
@@ -81,34 +81,34 @@
         "cycle": 2,
         "observation": [
           {
-            "headline": "Apple's AI vision is tailored for the moment of AI panic"
+            "headline": "Apple's iPhone Duo event should put the bears to rest"
           },
           {
-            "headline": "Louis Navellier is buying 3 headline-making stocks, including Google"
+            "headline": "Berkshire Hathaway Has Nearly 14% of Its $359 Billion Portfolio Invested in This Winning Stock That's Doubled in 5 Years"
           },
           {
-            "headline": "MP Materials Nears NdPr Target, Eyes GM Magnet Deliveries by Year-End"
+            "headline": "The Week Everybody Started Talking About AI Doomsday"
           },
           {
-            "headline": "Broadcom vs. Micron Technology: Which Technology Stock Is a Better Buy in 2026?"
+            "headline": "Dow Jones Futures: Fed Meeting Ahead; Anthropic's Amodei, OpenAI's Altman, SpaceX's Musk Call For AI Slowdown"
           },
           {
-            "headline": "Jim Cramer Flips the Script: Why Older Investors Should Ditch Growth Stocks for 30-Year Treasuries"
+            "headline": "Apple wants AI to listen all day without creeping people out"
+          },
+          {
+            "headline": "Can New iPhone Duo Power Apple's Stock Higher?"
+          },
+          {
+            "headline": "Oklo vs. NuScale vs. TMC: 3 Speculative Bets, Ranked By Which One Pays Off First."
           },
           {
             "headline": "Dow Jones Futures: Fed Rate Hike Seen As Oil, Yields Pressure Stocks; Apple, Moderna Are New Buys"
           },
           {
-            "headline": "Apple, Taiwan Semi Lead Five Stocks Near Buy Points"
+            "headline": "She Gave the Grandkids Cash for Their Down Payments and Left Them the Stock in Her Will. Done the Other Way Around, the IRS Would Have Collected $120,000 on the Same Two Gifts"
           },
           {
-            "headline": "Sirius XM CEO Highlights Cash Flow Growth, New Sports Plans and Ad Expansion at Conference"
-          },
-          {
-            "headline": "Foxconn Just Delivered a Major Bullish Signal for Nvidia Stock"
-          },
-          {
-            "headline": "$2.3 Billion in Daily Profits: Why Betting Against the Magnificent 7 Keeps Failing"
+            "headline": "3 Unstoppable Dow Stocks Worth Buying Right Now"
           }
         ]
       },
@@ -122,16 +122,16 @@
         "tool": "llm_sentiment",
         "args": {
           "headlines": [
-            "Apple's AI vision is tailored for the moment of AI panic",
-            "Louis Navellier is buying 3 headline-making stocks, including Google",
-            "MP Materials Nears NdPr Target, Eyes GM Magnet Deliveries by Year-End",
-            "Broadcom vs. Micron Technology: Which Technology Stock Is a Better Buy in 2026?",
-            "Jim Cramer Flips the Script: Why Older Investors Should Ditch Growth Stocks for 30-Year Treasuries",
+            "Apple's iPhone Duo event should put the bears to rest",
+            "Berkshire Hathaway Has Nearly 14% of Its $359 Billion Portfolio Invested in This Winning Stock That's Doubled in 5 Years",
+            "The Week Everybody Started Talking About AI Doomsday",
+            "Dow Jones Futures: Fed Meeting Ahead; Anthropic's Amodei, OpenAI's Altman, SpaceX's Musk Call For AI Slowdown",
+            "Apple wants AI to listen all day without creeping people out",
+            "Can New iPhone Duo Power Apple's Stock Higher?",
+            "Oklo vs. NuScale vs. TMC: 3 Speculative Bets, Ranked By Which One Pays Off First.",
             "Dow Jones Futures: Fed Rate Hike Seen As Oil, Yields Pressure Stocks; Apple, Moderna Are New Buys",
-            "Apple, Taiwan Semi Lead Five Stocks Near Buy Points",
-            "Sirius XM CEO Highlights Cash Flow Growth, New Sports Plans and Ad Expansion at Conference",
-            "Foxconn Just Delivered a Major Bullish Signal for Nvidia Stock",
-            "$2.3 Billion in Daily Profits: Why Betting Against the Magnificent 7 Keeps Failing"
+            "She Gave the Grandkids Cash for Their Down Payments and Left Them the Stock in Her Will. Done the Other Way Around, the IRS Would Have Collected $120,000 on the Same Two Gifts",
+            "3 Unstoppable Dow Stocks Worth Buying Right Now"
           ]
         }
       },
@@ -140,67 +140,67 @@
         "observation": {
           "items": [
             {
-              "headline": "Apple's AI vision is tailored for the moment of AI panic",
-              "sentiment": "neutral",
-              "confidence": 0.4,
-              "brief_reason": "Offline lexicon found no strong polarity cues."
-            },
-            {
-              "headline": "Louis Navellier is buying 3 headline-making stocks, including Google",
-              "sentiment": "neutral",
-              "confidence": 0.4,
-              "brief_reason": "Offline lexicon found no strong polarity cues."
-            },
-            {
-              "headline": "MP Materials Nears NdPr Target, Eyes GM Magnet Deliveries by Year-End",
-              "sentiment": "neutral",
-              "confidence": 0.4,
-              "brief_reason": "Offline lexicon found no strong polarity cues."
-            },
-            {
-              "headline": "Broadcom vs. Micron Technology: Which Technology Stock Is a Better Buy in 2026?",
-              "sentiment": "neutral",
-              "confidence": 0.4,
-              "brief_reason": "Offline lexicon found no strong polarity cues."
-            },
-            {
-              "headline": "Jim Cramer Flips the Script: Why Older Investors Should Ditch Growth Stocks for 30-Year Treasuries",
+              "headline": "Apple's iPhone Duo event should put the bears to rest",
               "sentiment": "positive",
-              "confidence": 0.55,
-              "brief_reason": "Offline lexicon matched bullish cue words."
+              "confidence": 0.9,
+              "brief_reason": "Headline conveys optimism about Apple\u2019s event."
+            },
+            {
+              "headline": "Berkshire Hathaway Has Nearly 14% of Its $359 Billion Portfolio Invested in This Winning Stock That's Doubled in 5 Years",
+              "sentiment": "positive",
+              "confidence": 0.95,
+              "brief_reason": "The headline highlights a successful investment that doubled in value."
+            },
+            {
+              "headline": "The Week Everybody Started Talking About AI Doomsday",
+              "sentiment": "negative",
+              "confidence": 0.9,
+              "brief_reason": "Headline references AI doomsday, implying negative outlook."
+            },
+            {
+              "headline": "Dow Jones Futures: Fed Meeting Ahead; Anthropic's Amodei, OpenAI's Altman, SpaceX's Musk Call For AI Slowdown",
+              "sentiment": "neutral",
+              "confidence": 0.8,
+              "brief_reason": "Headline reports events without clear positive or negative tone"
+            },
+            {
+              "headline": "Apple wants AI to listen all day without creeping people out",
+              "sentiment": "neutral",
+              "confidence": 0.7,
+              "brief_reason": "Apple is addressing privacy concerns while adding a feature, no clear positive or negative bias."
+            },
+            {
+              "headline": "Can New iPhone Duo Power Apple's Stock Higher?",
+              "sentiment": "neutral",
+              "confidence": 0.6,
+              "brief_reason": "The headline poses a question about potential positive impact, but does not assert it."
+            },
+            {
+              "headline": "Oklo vs. NuScale vs. TMC: 3 Speculative Bets, Ranked By Which One Pays Off First.",
+              "sentiment": "neutral",
+              "confidence": 0.7,
+              "brief_reason": "Headline presents speculative bets without clear positive or negative bias."
             },
             {
               "headline": "Dow Jones Futures: Fed Rate Hike Seen As Oil, Yields Pressure Stocks; Apple, Moderna Are New Buys",
               "sentiment": "neutral",
-              "confidence": 0.4,
-              "brief_reason": "Offline lexicon found no strong polarity cues."
+              "confidence": 0.6,
+              "brief_reason": "Mixed signals: Fed hike pressure vs new buys"
             },
             {
-              "headline": "Apple, Taiwan Semi Lead Five Stocks Near Buy Points",
+              "headline": "She Gave the Grandkids Cash for Their Down Payments and Left Them the Stock in Her Will. Done the Other Way Around, the IRS Would Have Collected $120,000 on the Same Two Gifts",
               "sentiment": "neutral",
-              "confidence": 0.4,
-              "brief_reason": "Offline lexicon found no strong polarity cues."
+              "confidence": 0.7,
+              "brief_reason": "The headline describes a tax\u2011efficient gifting strategy without negative implications."
             },
             {
-              "headline": "Sirius XM CEO Highlights Cash Flow Growth, New Sports Plans and Ad Expansion at Conference",
+              "headline": "3 Unstoppable Dow Stocks Worth Buying Right Now",
               "sentiment": "positive",
-              "confidence": 0.55,
-              "brief_reason": "Offline lexicon matched bullish cue words."
-            },
-            {
-              "headline": "Foxconn Just Delivered a Major Bullish Signal for Nvidia Stock",
-              "sentiment": "neutral",
-              "confidence": 0.4,
-              "brief_reason": "Offline lexicon found no strong polarity cues."
-            },
-            {
-              "headline": "$2.3 Billion in Daily Profits: Why Betting Against the Magnificent 7 Keeps Failing",
-              "sentiment": "positive",
-              "confidence": 0.55,
-              "brief_reason": "Offline lexicon matched bullish cue words."
+              "confidence": 0.9,
+              "brief_reason": "Headline encourages purchasing stocks."
             }
           ],
-          "overall_sentiment_score": 0.3707865168539326,
+          "overall_sentiment_score": 0.23870967741935484,
           "overall_label": "positive"
         }
       },
@@ -260,20 +260,20 @@
               {
                 "headline": "AAPL trading near 332.2699890136719 with RSI 62.789009402560566",
                 "sentiment": "neutral",
-                "confidence": 0.4,
-                "brief_reason": "Offline lexicon found no strong polarity cues."
+                "confidence": 0.9,
+                "brief_reason": "Neutral statement about price and RSI."
               },
               {
                 "headline": "AAPL annualised volatility reading 0.23231266453667265",
                 "sentiment": "neutral",
-                "confidence": 0.4,
-                "brief_reason": "Offline lexicon found no strong polarity cues."
+                "confidence": 0.9,
+                "brief_reason": "Factual statement about volatility, no positive or negative implication."
               },
               {
                 "headline": "AAPL MACD histogram 1.3247165078741852 versus SMA stack",
                 "sentiment": "neutral",
-                "confidence": 0.4,
-                "brief_reason": "Offline lexicon found no strong polarity cues."
+                "confidence": 0.8,
+                "brief_reason": "Technical indicator comparison, no clear positive or negative implication"
               }
             ],
             "overall_sentiment_score": 0.0,
@@ -398,20 +398,20 @@
           {
             "headline": "AAPL trading near 332.2699890136719 with RSI 62.789009402560566",
             "sentiment": "neutral",
-            "confidence": 0.4,
-            "brief_reason": "Offline lexicon found no strong polarity cues."
+            "confidence": 0.9,
+            "brief_reason": "Neutral statement about price and RSI."
           },
           {
             "headline": "AAPL annualised volatility reading 0.23231266453667265",
             "sentiment": "neutral",
-            "confidence": 0.4,
-            "brief_reason": "Offline lexicon found no strong polarity cues."
+            "confidence": 0.9,
+            "brief_reason": "Factual statement about volatility, no positive or negative implication."
           },
           {
             "headline": "AAPL MACD histogram 1.3247165078741852 versus SMA stack",
             "sentiment": "neutral",
-            "confidence": 0.4,
-            "brief_reason": "Offline lexicon found no strong polarity cues."
+            "confidence": 0.8,
+            "brief_reason": "Technical indicator comparison, no clear positive or negative implication"
           }
         ],
         "overall_sentiment_score": 0.0,
