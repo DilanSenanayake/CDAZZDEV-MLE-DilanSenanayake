@@ -31,6 +31,6 @@ Use before sending the assessment email.
 
 ## Video & email
 
-- [ ] Record <=5 min narrated walkthrough ([docs/VIDEO_SCRIPT.md](VIDEO_SCRIPT.md))
-- [ ] Upload YouTube unlisted or Drive (anyone with link)
+- [x] Record <=5 min narrated walkthrough ([VIDEO_SCRIPT.md](VIDEO_SCRIPT.md) / [VIDEO_SCRIPT.txt](VIDEO_SCRIPT.txt))
+- [x] Upload YouTube unlisted or Drive (anyone with link): https://drive.google.com/file/d/1v8D2KpuHk_Z6bSf4kBqESjMFVPcZ6wlv/view?usp=sharing
 - [ ] Email: GitHub + HF + Drive (if any) + video link

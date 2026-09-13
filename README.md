@@ -50,7 +50,7 @@ See [`docs/COLAB.md`](docs/COLAB.md) for all notebook Colab links.
 | Task 2 Colab (GitHub) | https://colab.research.google.com/github/DilanSenanayake/CDAZZDEV-MLE-DilanSenanayake/blob/master/task2_genai/finetune.ipynb |
 | Task 2 Colab (Drive, executed) | https://colab.research.google.com/drive/1FTUT9PINjueY3RslS-p3-IdZK56ZRjqN?usp=sharing |
 | Google Drive (large weights, optional) | _if needed_ |
-| Video walkthrough (<=5 min, mandatory per email) | _YouTube unlisted or Drive_ |
+| Video walkthrough (<=5 min, mandatory per email) | https://drive.google.com/file/d/1v8D2KpuHk_Z6bSf4kBqESjMFVPcZ6wlv/view?usp=sharing |
 
 ## Mandatory docs
 
@@ -66,7 +66,7 @@ Record yourself narrating (<=5 minutes):
 2. Task 3 agent trace + critique loop  
 3. Task 2 use case, dataset diversity, fine-tune notebook hyperparameters + eval table  
 
-See [`docs/VIDEO_SCRIPT.md`](docs/VIDEO_SCRIPT.md).
+See [`docs/VIDEO_SCRIPT.md`](docs/VIDEO_SCRIPT.md) (or [`docs/VIDEO_SCRIPT.txt`](docs/VIDEO_SCRIPT.txt) for Notepad).
 
 ## Security
 
