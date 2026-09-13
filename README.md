@@ -41,7 +41,7 @@ Task 2 QLoRA training: open `task2_genai/finetune.ipynb` in **Google Colab (T4 G
 | Deliverable | Link |
 |-------------|------|
 | GitHub (public) | https://github.com/DilanSenanayake/CDAZZDEV-MLE-DilanSenanayake |
-| Hugging Face model (Task 2) | _add after Colab merge + push_ |
+| Hugging Face model (Task 2) | https://huggingface.co/DilanSenanayake/phi3-compliance-qlora-merged |
 | Google Drive (large weights, optional) | _if needed_ |
 | Video walkthrough (<=5 min, mandatory per email) | _YouTube unlisted or Drive_ |
 

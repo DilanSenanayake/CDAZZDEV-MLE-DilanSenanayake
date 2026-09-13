@@ -15,9 +15,9 @@ Use before sending the assessment email.
 ## Keys / cloud runs (candidate)
 
 - [ ] Add real `GROQ_API_KEY` and re-run Task 1B + Task 3 sentiment live
-- [ ] Run `task2_genai/finetune.ipynb` on Colab T4; confirm val loss decreases
-- [ ] `merge_and_unload()` and push merged model to Hugging Face
-- [ ] Paste HF link into root README
+- [x] Run `task2_genai/finetune.ipynb` on Colab T4; confirm val loss decreases
+- [x] `merge_and_unload()` and push merged model to Hugging Face
+- [x] Paste HF link into root README: https://huggingface.co/DilanSenanayake/phi3-compliance-qlora-merged
 
 ## Video & email
 

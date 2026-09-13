@@ -33,7 +33,7 @@ Or open your saved copy and **git pull** to get fixes.
 4. Run **After restart** cell, then training cell
 5. Confirm val loss decreases; merge + push to Hugging Face Hub
 
-**HF model link (replace after push):** `https://huggingface.co/<YOUR_USER>/phi3-compliance-qlora-merged`
+**HF model link:** https://huggingface.co/DilanSenanayake/phi3-compliance-qlora-merged
 
 ## Evaluation
 
